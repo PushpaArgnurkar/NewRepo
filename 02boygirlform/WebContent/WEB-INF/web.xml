@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<web-app>
+	<servlet>
+		<servlet-name>aaa</servlet-name>
+		<servlet-class>com.cluster.servlet.BoyServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>aaa</servlet-name>
+		<url-pattern>/boy</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>boycheck</servlet-name>
+		<servlet-class>com.cluster.servlet.BoyCheckServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>boycheck</servlet-name>
+		<url-pattern>/apple</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>bbb</servlet-name>
+		<servlet-class>com.cluster.servlet.GirlServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>bbb</servlet-name>
+		<url-pattern>/girl</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>girlcheck</servlet-name>
+		<servlet-class>com.cluster.servlet.GirlCheckServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>girlcheck</servlet-name>
+		<url-pattern>/orange</url-pattern>
+	</servlet-mapping>
+</web-app>
